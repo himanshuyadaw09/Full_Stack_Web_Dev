@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+.container {
+    border: 2px solid rgb(6, 31, 255);
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column;  Main axis y axis and cross axis x */
+    /* flex-direction: row;  Main axis x axis and cross axis y */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    height: 100vh;  
+    
+    /* justify-content: ; Main axis  */
+    justify-content: center;
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: ; Cross Axis */
+    /* align-items: center; */
+    /* align-items: center; */
+    align-items: center;
+    /* align-items: start; */
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    /* align-content: ; jab multiple rows/ column ho */
+    /* align-content: center; */
+    /* align-content: end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+
+    
+}

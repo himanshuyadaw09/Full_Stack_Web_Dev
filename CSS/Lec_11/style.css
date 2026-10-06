@@ -1,0 +1,22 @@
+#wrapper {
+    /* background-color: aqua;
+    background: linear-gradient(to right, yellow, green);
+    background: linear-gradient(45deg, red, green);
+
+    background: radial-gradient(red, orange);
+    background: radial-gradient(circle, red, orange);
+
+    background: conic-gradient(red, yellow, green, orange, white); */
+
+    background-image: url(https://images.unsplash.com/photo-1789467006155-30bf4c1e0c46?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    height: 1000px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: cover; */
+
+}
+h1,p {
+    color: yellow;
+}
